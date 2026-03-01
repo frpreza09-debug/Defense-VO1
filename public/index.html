@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SeniorShield AI</title>
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script type="module" src="js/firebase-config.js"></script>
+<script type="module" src="js/ai-engine.js"></script>
+</head>
+
+<body>
+
+<h1>🛡 SeniorShield AI Scanner</h1>
+
+<button onclick="toggleSenior()">👵 Mode Lansia</button>
+
+<textarea id="inputText" placeholder="Tempel pesan SMS / WA di sini..."></textarea>
+
+<button onclick="scanText()">🔍 Scan Pesan</button>
+
+<div id="result"></div>
+<div id="explain"></div>
+
+<canvas id="chart"></canvas>
+
+<br><br>
+<a href="login.html">🔐 Admin Login</a>
+
+</body>
+</html>
